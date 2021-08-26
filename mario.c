@@ -61,7 +61,6 @@ void print_row(int height, int row_num)
     print_n('#', row_num);
     printf("  ");
     print_n('#', row_num);
-    print_n(' ', amount_spaces);
 }
 
 // print_n prints the given character the given
