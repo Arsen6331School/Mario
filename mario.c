@@ -33,11 +33,14 @@ int get_valid_height()
 // the input from stdin as an integer
 int ask_for_height()
 {
-    int height;
     // Print prompt
     printf("Height: ");
-    // Get integer input
-    scanf("%i", &height);
+    char input[100];
+    // Get input string
+    fgets(input, 100, stdin);
+    int height;
+    // Scan input string for integer
+    sscanf(input, "%i", &height);
     return height;
 }
 
