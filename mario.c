@@ -64,6 +64,8 @@ void print_row(int height, int row_num)
     print_n(' ', amount_spaces);
 }
 
+// print_n prints the given character the given
+// amount of times
 void print_n(char character, int n)
 {
     for (int i = 0; i < n; i++)
